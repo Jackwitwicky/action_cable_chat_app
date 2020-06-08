@@ -86,6 +86,5 @@ Rails.application.configure do
 
   config.action_cable.url = 'wss://calm-falls-14818.herokuapp.com/cable'
   config.action_cable.allowed_request_origins = [
-      'https://calm-falls-14818.herokuapp.com/', '*' ]
-  config.action_cable.disable_request_forgery_protection = false
+      'https://calm-falls-14818.herokuapp.com/' ]
 end
